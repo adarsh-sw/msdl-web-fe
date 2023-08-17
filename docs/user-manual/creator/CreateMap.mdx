@@ -1,0 +1,116 @@
+---
+title: Video Tutorials
+description: Video Tutorials
+keywords:
+  - hasura
+  - docs
+  - manual
+  - graphql engine
+slug: map
+sidebar_label: Map
+sidebar_position: 10
+# hide_table_of_contents: true
+---
+
+# Map
+
+import Thumbnail from '@site/src/components/Thumbnail';
+
+MSDL provides you an option to 'curate' a map, published elsewhere. You can also publish a map in MSDL.
+
+### Map Details {#map-details}
+
+This section requires the fields, as mentioned below:
+
+<Thumbnail src="/img/map/map-details.png" alt="Map details" />
+
+| Field     | Description                                                                                                       | Required |
+| :-------- | :---------------------------------------------------------------------------------------------------------------- | :------: |
+| Title     | Title of `Map` in the heading of the static map or interactive digital map.                                       |    Y     |
+| Sub-title | A sub-title is often written below the title. Mention Sub-title, if it is available.                              |    N     |
+| Language  | Select from options: English, Lao, Thai. Select multiple languages, if `Legal Text` is bilingual or multilingual. |    Y     |
+| Scale     | Mention scale of the Map in ratio.                                                                                |    Y     |
+| Pages     | Mention the single page number or the range of pages where the map has appeared.                                  |    N     |
+| License   | Select from options: Creative Commons Attribution-Non-commercial 4.0, MIT, Open Access                            |    Y     |
+| Access    | Select from options: Open Access, Registered Users                                                                |    Y     |
+
+### Publication Details {#legaltext-publication}
+
+A map can be published in a wide range of publications.
+
+This section allows you to select the publication the map has appeared. In this section, mention the following details:
+
+<Thumbnail src="/img/map/map-publication.png" alt="Legal text  publication" />
+
+If the 'Act' is not available in the list, you can type the name of the Act, and click 'Add Act'.
+
+| Field                     | Description                                                                                                                                                                                                   | Required |
+| :------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------: |
+| Type of Publication       | Select from options: Book, Report, Thesis, Journal Article, Audio, Video, Blog Post, Article, Presentation, Interview, Meeting of Minutes, News Article, Magazine, Conference/ Workshop Proceedings Section . |    N     |
+| Select {Publication Type} | Select from the list. If the specific publication is not available in the list, you can type publication title and create it using 'Add Publication'                                                          |    Y     |
+
+### Authors {#map-authors}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/map/map-authors.png" alt="Map Authors" />
+
+| Field          | Description                                                                                                                                                           | Required |
+| :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Type of Author | Select from options: Author, Cartographer. Default option selected: 'Author'.                                                                                         |    Y     |
+| Author         | Select list of 'Authors'. If the Author is not available in the list, type the name of Author you want to add and click 'Add Author'. It will open 'Add Author' form. |    Y     |
+
+### Publisher Details {#map-publisher}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/map/map-publisher.png" alt="Map publisher MSDL" />
+
+| Field                | Description                                                                                                                                                                                                                                                                      | Required |
+| :------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Publisher            | Select the `Publisher` from the list, if available. If not available, type the name of the Publisher add the Publisher using 'Add Publisher' form. If you are curating a `Book`, provide the name of the Publisher, else mention Mekong School Digital Library as the publisher. |    Y     |
+| Place of Publication | Mention `Place of Publication`, such as the primary city or place mentioned as the office of the Publisher. If the city is not well-known, you may mention the district or province as well. Sometimes digital-only Books may not mention `Place of Publication`.                |    N     |
+| Date of Publication  | Mention `Date of Publication` in DD/MM/YYYY format.                                                                                                                                                                                                                              |    Y     |
+| ISBN/ISSN            | Mention ISBN/ISSN printed in the publication.                                                                                                                                                                                                                                    |    N     |
+| Call Number          | Publisher may provide a `Call Number` in the Catalogue of the document.                                                                                                                                                                                                          |    N     |
+
+### Abstract {#map-abstract}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/map/map-abstract.png" alt="Map abstract" />
+
+| Field   | Description                                                  | Required |
+| :------ | :----------------------------------------------------------- | :------: |
+| Summary | Provide a summary of the `Map`, usually in 3 to 5 sentences. |    Y     |
+
+### Tags {#map-tags}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/map/map-tags.png" alt="Map tags" />
+
+| Field | Description                                                                   | Required |
+| :---- | :---------------------------------------------------------------------------- | :------: |
+| Tags  | Select 3 to 8 tags that describe the main subjects the `Map` is dealing with. |    Y     |
+
+### Attachment & Link {#Map-link}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/map/map-attachment-link.png" alt="Legal text attachment link MSDL" />
+
+| Field      | Description                                                              | Required |
+| :--------- | :----------------------------------------------------------------------- | :------: |
+| Attachment | Upload the image (PNG) of the map.                                       |    Y     |
+| Link       | Mention the webpage link to the `Map` where it was originally published. |    N     |
+
+### Copyrights {#map-copyrights}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/map/map-copyrights.png" alt="Map copyright MSDL" />
+
+| Field      | Description                                                           | Required |
+| :--------- | :-------------------------------------------------------------------- | :------: |
+| Copyrights | The `Author(s)` will be auto-selected as the holder(s) of copyrights. |    Y     |

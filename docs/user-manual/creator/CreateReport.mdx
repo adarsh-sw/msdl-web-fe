@@ -1,0 +1,134 @@
+---
+title: Report & Report Sections
+description: Video Tutorials
+keywords:
+  - report
+  - report sections
+  - report msdl
+slug: report
+sidebar_label: Report
+sidebar_position: 12
+# hide_table_of_contents: true
+---
+
+# Report/ Report Section
+
+A `report` is a document that presents information in an organized format for a specific audience and purpose. Although
+summaries of reports may be delivered orally, complete reports are almost always in the form of written documents.
+
+`Report Section` is a specific part of the `Report` and it can be a part, chapter, or a section. In MSDL, a
+`Report Section` will have a reference to the `Report` where it was taken from.
+
+import Thumbnail from '@site/src/components/Thumbnail';
+
+MSDL provides you an option to 'curate' a `Report`/ `Report Section`, published elsewhere. You can also publish a
+`Report` in MSDL.
+
+### Report Details {#report-details}
+
+This section requires the fields, as mentioned below:
+
+<Thumbnail src="/img/report/report-details.png" alt="report details" />
+
+| Field                  | Description                                                                                                                         | Required |
+| :--------------------- | :---------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Title                  | Title of `Report`/ `Report Section` mention in the document.                                                                        |    Y     |
+| Sub-title              | A sub-title is often written below the title. Mention Sub-title, if it is available.                                                |    N     |
+| Language               | Select from options: English, Lao, Thai. Select multiple languages, if `Report`/ `Report Section` is bilingual or multilingual.     |    Y     |
+| Report Type            | Select from options: Report, Report Section                                                                                         |    Y     |
+| Number of Pages/ Pages | If the given `proceeding` appears as part of a publication, mention Pages (e.g., 10-20). Else, mention the total 'Number of Pages'. |    Y     |
+| License                | Select from options: Creative Commons Attribution-Non-commercial 4.0, MIT, Open Access                                              |    Y     |
+| Access                 | Select from options: Open Access, Registered Users                                                                                  |    Y     |
+
+### Publication Details {#report-section-publication}
+
+If you have selected `Report Section` in response to the question Report Type above, then you will get this section.
+This field is mandatory, if Report Type selected is Report Section.
+
+<Thumbnail src="/img/report/report-publication.png" alt="report-section report  publication" />
+
+If the 'Report' is not available in the list, you can type the report title, and click 'Add Report'.
+
+| Field         | Description                                                                                                                           | Required |
+| :------------ | :------------------------------------------------------------------------------------------------------------------------------------ | :------: |
+| Select Report | Select from the list. If the specific Report is not available in the list, you can type report title and create it using 'Add Report' |    Y     |
+
+### Series & Volume {#report-series-volume}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/report/report-series-volume.png" alt="Report series and volume" />
+
+| Field         | Description                                                         | Required |
+| :------------ | :------------------------------------------------------------------ | :------: |
+| Series        | Mention `Series Title`, if available, of the Report.                |    N     |
+| Series Number | Mention `Series Number`, if available, of the report series number. |    N     |
+| Volume Title  | Mention `Volume Title`, if available, of the report's volume.       |    N     |
+| Volume Number | Mention `Volume Number`, if available, of the report's volume.      |    N     |
+| Report Number | Mention `Report Number`, if available, of the Report.               |    N     |
+
+### Authors {#report-authors}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/report/report-authors.png" alt="report Authors" />
+
+| Field       | Description                                                                                                                                                           | Required |
+| :---------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Author Type | Select from options: Authors, Editors. Default: Author                                                                                                                |    Y     |
+| Author      | Select list of 'Authors'. If the Author is not available in the list, type the name of Author you want to add and click 'Add Author'. It will open 'Add Author' form. |    Y     |
+
+### Publisher Details {#report-publisher}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/report/report-publisher.png" alt="report publisher MSDL" />
+
+| Field                | Description                                                                                                                                                                                                                                                                        | Required |
+| :------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Publisher            | Select the `Publisher` from the list, if available. If not available, type the name of the Publisher add the Publisher using 'Add Publisher' form. If you are curating a `Report`, provide the name of the Publisher, else mention Mekong School Digital Library as the publisher. |    Y     |
+| Date of Publication  | Mention `Date of Publication` in DD/MM/YYYY format.                                                                                                                                                                                                                                |    Y     |
+| Place of Publication | Mention `Place of Publication`, such as the primary city or place mentioned as the office of the Publisher. If the city is not well-known, you may mention the district or province as well. Sometimes digital-only report may not mention `Place of Publication`.                 |    N     |
+| ISBN                 | Mention ISBN printed in the report.                                                                                                                                                                                                                                                |    N     |
+| Call Number          | Publisher may provide a `Call Number` in the Catalogue of the Report.                                                                                                                                                                                                              |    N     |
+
+### Abstract {#report-abstract}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/report/report-abstract.png" alt="report abstract" />
+
+| Field    | Description                                                                       | Required |
+| :------- | :-------------------------------------------------------------------------------- | :------: |
+| Abstract | Provide a summary of the `Report`/ `Report Section`, usually in 3 to 5 sentences. |    Y     |
+
+### Tags {#report-tags}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/report/report-tags.png" alt="report tags" />
+
+| Field | Description                                                                                        | Required |
+| :---- | :------------------------------------------------------------------------------------------------- | :------: |
+| Tags  | Select 3 to 8 tags that describe the main subjects the `Report`/ `Report Section` is dealing with. |    Y     |
+
+### Attachment & Link {#report-link}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/report/report-attachment-link.png" alt="report text attachment link MSDL" />
+
+| Field      | Description                                                                 | Required |
+| :--------- | :-------------------------------------------------------------------------- | :------: |
+| Attachment | Upload the PDF of `Report`/ `Report Section`.                               |    Y     |
+| Link       | Mention the webpage link to the `Report` where it was originally published. |    N     |
+
+### Copyrights {#report-copyrights}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/report/report-copyrights.png" alt="report copyright MSDL" />
+
+| Field      | Description                                                           | Required |
+| :--------- | :-------------------------------------------------------------------- | :------: |
+| Copyrights | The `Author(s)` will be auto-selected as the holder(s) of copyrights. |    Y     |

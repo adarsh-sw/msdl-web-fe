@@ -1,0 +1,122 @@
+---
+title: Video Tutorials
+description: Video Tutorials
+keywords:
+  - hasura
+  - docs
+  - manual
+  - graphql engine
+slug: legal-text
+sidebar_label: Legal Text
+sidebar_position: 9
+# hide_table_of_contents: true
+---
+
+# Legal Text
+
+import Thumbnail from '@site/src/components/Thumbnail';
+
+MSDL provides you an option to 'curate' a Legal Text, available in scanned or digital media.
+
+### Legal Text Details {#legaltext-details}
+
+This section requires the fields, as mentioned below:
+
+<Thumbnail src="/img/legaltext/legaltext-details.png" alt="Curate Legal Text" />
+
+| Field                  | Description                                                                                                                                                                                    | Required |
+| :--------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Title                  | Title of `Legal Text` as written on top of the legal document.                                                                                                                                 |    Y     |
+| Sub-title              | A sub-title is often written below the title. Mention Sub-title, if it is available.                                                                                                           |    N     |
+| Language               | Select from options: English, Lao, Thai. Select multiple languages, if `Legal Text` is bilingual or multilingual.                                                                              |    Y     |
+| Pages/ Number of Pages | Legal text appearing in an Act will have start and end pages. Mention the Pages like 25-35. If the Legal Text being curated wholly, then mention the total number of pages as Pages (e.g., 15) |    Y     |
+| License                | Select from options: Creative Commons Attribution-Non-commercial 4.0, MIT, Open Access                                                                                                         |    Y     |
+| Access                 | Select from options: Open Access, Registered Users                                                                                                                                             |    Y     |
+
+### Publication Details {#legaltext-publication}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/legaltext/legaltext-publication.png" alt="Legal text  publication" />
+
+If the 'Act' is not available in the list, you can type the name of the Act, and click 'Add Act'.
+
+| Field | Description                                                                                                                   | Required |
+| :---- | :---------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Act   | Select from the list. If the specific 'Act' is not available, you can type the name of the Act and create it using 'Add Act.' |    Y     |
+
+### Section & Year {#legaltext-section-year}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/legaltext/legaltext-section-year.png" alt="Legal text section and year" />
+
+| Field   | Description                                                     | Required |
+| :------ | :-------------------------------------------------------------- | :------: |
+| Section | Mention `Section` in the Act where the legal text has appeared. |    N     |
+| Year    | Mention the year of the Act.                                    |    N     |
+
+### Authors {#legaltext-authors}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/legaltext/legaltext-authors.png" alt="journal Authors" />
+
+| Field          | Description                                                                                                                                                           | Required |
+| :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Type of Author | Select from options: Author, Contributor, Editor, Reviewing Author, Translator. Default option selected: 'Author'.                                                    |    Y     |
+| Author         | Select list of 'Authors'. If the Author is not available in the list, type the name of Author you want to add and click 'Add Author'. It will open 'Add Author' form. |    Y     |
+
+### Publisher Details {#legaltext-publisher}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/legaltext/legaltext-publisher.png" alt="Legal text publisher MSDL" />
+
+| Field                | Description                                                                                                                                                                                                                                                                      | Required |
+| :------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Publisher            | Select the `Publisher` from the list, if available. If not available, type the name of the Publisher add the Publisher using 'Add Publisher' form. If you are curating a `Book`, provide the name of the Publisher, else mention Mekong School Digital Library as the publisher. |    Y     |
+| Date of Publication  | Mention `Date of Publication` in DD/MM/YYYY format.                                                                                                                                                                                                                              |    Y     |
+| Place of Publication | Mention `Place of Publication`, such as the primary city or place mentioned as the office of the Publisher. If the city is not well-known, you may mention the district or province as well. Sometimes digital-only Books may not mention `Place of Publication`.                |    N     |
+| Call Number          | Publisher may provide a `Call Number` in the Catalogue of the document.                                                                                                                                                                                                          |    N     |
+
+### Abstract {#legaltext-abstract}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/legaltext/legaltext-abstract.png" alt="Legal text abstract" />
+
+| Field    | Description                                                                                                                                       | Required |
+| :------- | :------------------------------------------------------------------------------------------------------------------------------------------------ | :------: |
+| Abstract | Provide an abstract of the `Journal Article`, usually in 3 to 5 sentences. An Abstract is usually provided by the Author of the Journal Article . |    Y     |
+
+### Tags {#legaltext-tags}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/journal/journal-article-tags.png" alt="Blog tags" />
+
+| Field | Description                                                                    | Required |
+| :---- | :----------------------------------------------------------------------------- | :------: |
+| Tags  | Select 3 to 8 tags that describe the main subjects the `Book` is dealing with. |    Y     |
+
+### Link {#legaltext-link}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/legaltext/legaltext-attachment-link.png" alt="Legal text attachment link MSDL" />
+
+| Field      | Description                                                                     | Required |
+| :--------- | :------------------------------------------------------------------------------ | :------: |
+| Attachment | Upload the PDF of the Legal Text.                                               |    Y     |
+| Link       | Mention the webpage link to the `Legal Text` where it was originally published. |    N     |
+
+### Copyrights {#legaltext-copyrights}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/book/book-copyrights.png" alt="Blog link" />
+
+| Field      | Description                                                           | Required |
+| :--------- | :-------------------------------------------------------------------- | :------: |
+| Copyrights | The `Author(s)` will be auto-selected as the holder(s) of copyrights. |    Y     |

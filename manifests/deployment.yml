@@ -1,0 +1,38 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: msdl-docs-fe
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: msdl-docs-fe
+  template:
+    metadata:
+      labels:
+        app: msdl-docs-fe
+    spec:
+      terminationGracePeriodSeconds: 101
+      containers:
+        - name: msdl-docs-fe
+          image: socialwellacrdev.azurecr.io/socialwell/msdl-docs-fe-main
+          ports:
+          - containerPort: 3000
+          resources:
+            requests:
+              memory: "150Mi"
+              cpu: "20m"
+            limits:
+              memory: "250Mi"
+              cpu: "100m"
+          lifecycle:
+            preStop:
+              exec:
+                command: ["sleep","90"]
+#           livenessProbe:
+#             httpGet:
+#               path: /health
+#               port: 3000
+#             periodSeconds: 4
+#             timeoutSeconds: 5
+#             failureThreshold: 3

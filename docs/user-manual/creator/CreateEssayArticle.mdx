@@ -1,0 +1,134 @@
+---
+title: Video Tutorials
+description: Video Tutorials
+keywords:
+  - hasura
+  - docs
+  - manual
+  - graphql engine
+slug: essay-article
+sidebar_label: Essay/ Article
+sidebar_position: 6
+# hide_table_of_contents: true
+---
+
+import Thumbnail from '@site/src/components/Thumbnail';
+
+# Essay/ Article
+
+<div className="badge badge--primary heading-badge">Includes: Magazine Article, Newspaper Article, Website Article</div>
+
+##
+
+MSDL provides you an option to 'curate' or 'publish' an `Essay/ Article`.
+
+### Essay/ Article Details {#essay-article-details}
+
+This section requires the fields, as mentioned below:
+
+<Thumbnail src="/img/article/article-details.png" alt="Disseration details" />
+
+| Field                 | Description                                                                                                                                                                                                                                                                   | Required |
+| :-------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Title                 | Title of `Essay/Article` as ,mentioned by the Author.                                                                                                                                                                                                                         |    Y     |
+| Sub-title             | Mention Sub-title as mentioned in the document. Sub-title is usually mentioned below or above the `title`.                                                                                                                                                                    |    N     |
+| Language              | Select from options: English, Lao, Thai. Select multiple languages, if `Essay/ Article` is bilingual or multilingual.                                                                                                                                                         |    Y     |
+| Number of Pages/Pages | Mention total number of pages (as Number of Pages) as printed or provided in the original PDF. If the Essay/Article is digital, mention '00'. If the `Essay/ Article` has been published in another publication (e.g., Magazine or Newspaper), mentioned Pages (e.g., 20-35). |    Y     |
+| License               | Select from options: Creative Commons Attribution-Non-commercial 4.0, MIT, Open Access                                                                                                                                                                                        |    Y     |
+| Access                | Select from options: Open Access, Registered Users                                                                                                                                                                                                                            |    Y     |
+
+### Publication Details {#article-publication}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/article/article-publication.png" alt="Article publication" />
+
+The Author can curate the `Essay/ Article` published in a Magazine, Newspaper, or in a Website. Authors can also publish
+`Essay/Article` in MSDL. In that case, the `Publication Type` will be website and the selection will be 'Mekong School
+Digital Library'.
+
+For `Journal Article`, you can consult [`Journal Article`](/docs/latest/user-manual/creator/journal-article).
+
+| Field              | Description                                                                                                                                                                                  | Required |
+| :----------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Publication Type   | Select from options: Magazine, Newspaper, Website.                                                                                                                                           |    Y     |
+| Select Publication | Select the publication from the list. If a publication is not listed, you can type the name of the Publication and then add it using 'Add Newspaper', 'Add Magazine', or 'Add Website' form. |    Y     |
+
+### Series & Volume {#article-series-volume}
+
+If the Essay/ Article has appeared in a Magazine or a Newspaper, this section enables the Author to provide the `Series`
+and `Volume` of the Magazine or Newspaper:
+
+<Thumbnail src="/img/article/article-series-volume.png" alt="Article series and volume" />
+
+| Field         | Description                                                                      | Required |
+| :------------ | :------------------------------------------------------------------------------- | :------: |
+| Series Title  | Mention `Series Title`, if available, of the Magazine/ Newspaper Essay/ Article. |    N     |
+| Series Number | Mention `Series Number`, if available, of the Magazine/ Newspaper.               |    N     |
+| Volume Title  | Mention `Volume Title`, if available, of the Magazine/ Newspaper.                |    N     |
+| Volume Number | Mention `Volume Number`, if available, of the Magazine/ Newspaper.               |    N     |
+
+### Authors {#article-authors}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/article/article-authors.png" alt="Article Authors" />
+
+| Field          | Description                                                                                                                                                           | Required |
+| :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Type of Author | Select from options: Author, Editor. Default option selected: 'Author'.                                                                                               |    Y     |
+| Author         | Select list of 'Authors'. If the Author is not available in the list, type the name of Author you want to add and click 'Add Author'. It will open 'Add Author' form. |    Y     |
+
+### Publisher Details {#article-publisher}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/article/article-publisher.png" alt="Essay/ Article publisher MSDL" />
+
+| Field                | Description                                                                                                                                                                                                                                                       | Required |
+| :------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Publisher/ Website   | Select the `Publisher/ Website` from the list, if available. If not available, type the name of the Publisher add the Publisher using 'Add Publisher' form.                                                                                                       |    Y     |
+| Date of Publication  | Mention `Date of Publication` in DD/MM/YYYY format.                                                                                                                                                                                                               |    Y     |
+| Place of Publication | Mention `Place of Publication`, such as the primary city or place mentioned as the office of the Publisher. If the city is not well-known, you may mention the district or province as well. Sometimes digital-only Books may not mention `Place of Publication`. |    N     |
+| ISSN                 | Mention `ISSN` of the Magazine/ Newspaper.                                                                                                                                                                                                                        |    Y     |
+| Call Number          | Provide a `Call Number` if available for the Magazine.                                                                                                                                                                                                            |    N     |
+
+### Abstract {#article-abstract}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/article/article-abstract.png" alt="Essay Article abstract" />
+
+| Field    | Description                                                            | Required |
+| :------- | :--------------------------------------------------------------------- | :------: |
+| Abstract | Provide a summary of the `Essay/Article`, usually in 3 to 5 sentences. |    Y     |
+
+### Tags {#article-tags}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/article/article-tags.png" alt="Essay article tags" />
+
+| Field | Description                                                                              | Required |
+| :---- | :--------------------------------------------------------------------------------------- | :------: |
+| Tags  | Select 3 to 8 tags that describe the main subjects the `Essay/ Article` is dealing with. |    Y     |
+
+### Link {#article-attachment-link}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/article/article-attachment-link.png" alt="Essay/ Article link MSDL" />
+
+| Field | Description                                                         | Required |
+| :---- | :------------------------------------------------------------------ | :------: |
+| Link  | Mention the webpage link to the `Essay/Article` was made available. |    N     |
+
+### Copyrights {#article-copyrights}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/article/article-copyrights.png" alt="Blog link" />
+
+| Field      | Description                                                           | Required |
+| :--------- | :-------------------------------------------------------------------- | :------: |
+| Copyrights | The `Author(s)` will be auto-selected as the holder(s) of copyrights. |    Y     |

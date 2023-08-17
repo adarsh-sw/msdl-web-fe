@@ -1,0 +1,111 @@
+---
+title: Video Tutorials
+description: Video Tutorials
+keywords:
+  - hasura
+  - docs
+  - manual
+  - graphql engine
+slug: video
+sidebar_label: Video
+sidebar_position: 12
+# hide_table_of_contents: true
+---
+
+# Video
+
+import Thumbnail from '@site/src/components/Thumbnail';
+
+MSDL provides you an option to 'curate' a Video. Users can first upload the video in popular video platforms and then
+provide the link in the 'Add Video' form in MSDL. It is recommended to use YouTube to give the MSDL Community a better
+viewing experience.
+
+### Vide Details {#video-details}
+
+This section requires the fields, as mentioned below:
+
+<Thumbnail src="/img/video/video-details.png" alt="video details" />
+
+| Field     | Description                                                                                                       | Required |
+| :-------- | :---------------------------------------------------------------------------------------------------------------- | :------: |
+| Title     | Title of `Video` as mentioned in the video description section.                                                   |    Y     |
+| Sub-title | A sub-title is written along with the title (often after :).                                                      |    N     |
+| Language  | Select from options: English, Lao, Thai. Select multiple languages, if `proceeding` is bilingual or multilingual. |    Y     |
+| Duration  | Mention the duration in HH:MM:SS format.                                                                          |    Y     |
+| License   | Select from options: Creative Commons Attribution-Non-commercial 4.0, MIT, Open Access                            |    Y     |
+| Access    | Select from options: Open Access, Registered Users                                                                |    Y     |
+
+### Vide/ TV Series/ Episode {#video-series}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/video/video-series-volume.png" alt="Video series and volume" />
+
+| Field                     | Description                                                    | Required |
+| :------------------------ | :------------------------------------------------------------- | :------: |
+| Video/ TV Series/ Episode | Mention Title`, if available, of the series.                   |    N     |
+| Series/ Episode Number    | Mention `Series/ Episode Number`, if available, of the series. |    N     |
+
+### Authors {#video-authors}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/video/video-authors.png" alt="video Authors" />
+
+| Field       | Description                                                                                                                                                                       | Required |
+| :---------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Author Type | Select type of 'Authors'. For video, available options are: Editor, Host, Reviewing Author, Cast Member, Narrator, Producer, Script Writter, Performer, Presenter, Interview With |    Y     |
+| Author      | Select list of 'Authors'. If the Author is not available in the list, type the name of Author you want to add and click 'Add Author'. It will open 'Add Author' form.             |    Y     |
+
+### Publisher Details {#video-publisher}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/video/video-publisher.png" alt="video publisher MSDL" />
+
+| Field                               | Description                                                                                                                                                                                                                                                                                                  | Required |
+| :---------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Production Company/ Studio/ Website | Select the `Publisher` from the list, if available. If not available, type the name of the Publisher add the Publisher using 'Add Publisher' form.                                                                                                                                                           |    Y     |
+| Date of Publication                 | Mention `Date of Publication` in DD/MM/YYYY format.                                                                                                                                                                                                                                                          |    Y     |
+| Place of Publication                | Mention `Place of Publication`, such as the primary city or place mentioned as the office of the Publisher or the location of Production Company. If the city is not well-known, you may mention the district or province as well. Sometimes digital-only proceeding may not mention `Place of Publication`. |    N     |
+| Call Number                         | Publisher may provide a `Call Number` in the Cataloguing record of the video.                                                                                                                                                                                                                                |    N     |
+
+### Summary {#video-abstract}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/video/video-abstract.png" alt="video abstract" />
+
+| Field   | Description                                                    | Required |
+| :------ | :------------------------------------------------------------- | :------: |
+| Summary | Provide a summary of the `video`, usually in 3 to 5 sentences. |    Y     |
+
+### Tags {#video-tags}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/video/video-tags.png" alt="video tags" />
+
+| Field | Description                                                                     | Required |
+| :---- | :------------------------------------------------------------------------------ | :------: |
+| Tags  | Select 3 to 8 tags that describe the main subjects the `video` is dealing with. |    Y     |
+
+### Link {#video-link}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/video/video-attachment-link.png" alt="video text attachment link MSDL" />
+
+| Field | Description                                                                               | Required |
+| :---- | :---------------------------------------------------------------------------------------- | :------: |
+| Link  | Mention the link to the `video` provided by video publishing platform, e.g. YouTube link. |    Y     |
+
+### Copyrights {#video-copyrights}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/video/video-copyrights.png" alt="video copyright MSDL" />
+
+| Field      | Description                                                           | Required |
+| :--------- | :-------------------------------------------------------------------- | :------: |
+| Copyrights | The `Author(s)` will be auto-selected as the holder(s) of copyrights. |    N     |

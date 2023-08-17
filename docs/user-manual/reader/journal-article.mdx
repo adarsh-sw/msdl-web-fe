@@ -1,0 +1,75 @@
+---
+sidebar_label: Journal Article
+sidebar_position: 1
+description: Journal Article
+keywords:
+  - hasura
+  - docs
+  - databases
+  - connect
+toc_max_heading_level: 2
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import Thumbnail from '@site/src/components/Thumbnail';
+
+# Journal Article
+
+## Introduction
+
+An academic journal or scholarly journal is a periodical publication in which scholarship relating to a particular
+academic discipline is published. An article is long form structured writing published in a journal.
+
+:::tip Expore Journal Articles
+
+To get a list of Journal Articles, select 'Journal Article' as Resource Type in MSDL Explore. You can then use various
+filters such as Author, Publisher, and Tags to narrow down the list of these Journal Articles.
+
+<Thumbnail src="/img/journal/explore-journal-article.png" alt="Selecting Journal Article in explore" />
+
+:::
+
+## Journal Article Details {#journal-article-details}
+
+A Journal Article is cited like this:
+
+```
+Author’s Last Name, Initial(s)., Author’s Last Name, Initial(s)., & Author’s Last Name, Initial(s). (Year of
+publication). Title of article. Title of Journal, Volume(Issue), Pages. https://doi.org/DOI or URL
+```
+
+You can read in Web, Android, or iOS App.
+
+<Tabs groupId="user-preference" className="api-tabs">
+<TabItem value="journal-article-web" label="Web">
+
+### Title and Authors {#journal-article-title-authors-view}
+
+In this section, a record mentions the `Title`, `Sub-title` (if any), `Author`, and `Tags`. Readers can also share the
+`Book`, download the PDF, and bookmark it.
+
+<Thumbnail src="/img/journal/journal-article-title-authors-view.png" alt="book title author tags MSDL" width="1686px" />
+
+### Abstract {#journal-article-abstract-view}
+
+In this section, you will get a cover photo (auto-created from the `Journal Article`). The link `Visit Website` takes
+you to the webpage that published the `Journal Article`. It will also provide the summary of the `Journal Article`.
+
+<Thumbnail src="/img/journal/journal-article-abstract-view.png" alt="Book content MSDL" width="1686px" />
+
+### Content {#journal-article-title-content-view}
+
+The full text will appear below the Details section.
+
+<Thumbnail src="/img/journal/journal-article-title-content-view.png" alt="Book content MSDL" width="1686px" />
+
+### Details {#journal-article-details-view}
+
+This section provides `Language`, `License`, `Journal`, `Date of Publication`, `Pages, `Access`, `Submitted
+By`, and `Copyright`.
+
+<Thumbnail src="/img/journal/journal-article-details-view.png" alt="journal article details MSDL" width="1686px" />
+
+</TabItem>
+</Tabs>

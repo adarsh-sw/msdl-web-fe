@@ -1,0 +1,100 @@
+---
+title: Video Tutorials
+description: Video Tutorials
+keywords:
+  - hasura
+  - docs
+  - manual
+  - graphql engine
+slug: court-proceeding
+sidebar_label: Court Proceeding
+sidebar_position: 5
+# hide_table_of_contents: true
+---
+
+# Court Proceeding
+
+import Thumbnail from '@site/src/components/Thumbnail';
+
+MSDL provides you an option to 'curate' a `Court Proceeding` issued by a court in print or digital format.
+
+### Court Proceeding Details {#court-proceeding-details}
+
+This section requires the fields, as mentioned below:
+
+<Thumbnail src="/img/court-proceedings/court-proceeding-details.png" alt="Curate court proceedings details" />
+
+| Field    | Description                                                                                                             | Required |
+| :------- | :---------------------------------------------------------------------------------------------------------------------- | :------: |
+| Title    | Title of `Court Proceeding` as printed in the document.                                                                 |    Y     |
+| Language | Select from options: English, Lao, Thai. Select multiple languages, if `Court Proceeding` is bilingual or multilingual. |    Y     |
+| Pages    | Mention total number of pages as printed or provided by PDF file.                                                       |    Y     |
+| Access   | Select from options: Open Access, Registered Users                                                                      |    Y     |
+
+### Authors {#court-proceeding-authors}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/court-proceedings/court-proceeding-authors.png" alt="Court proceeding Authors" />
+
+| Field          | Description                                                                                                                                                           | Required |
+| :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Type of Author | Select from options: Author, Bench. Default option selected: 'Author'.                                                                                                |    Y     |
+| Author         | Select list of 'Authors'. If the Author is not available in the list, type the name of Author you want to add and click 'Add Author'. It will open 'Add Author' form. |    Y     |
+
+### Court Details {#court-proceeding-publisher}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/court-proceedings/court-proceeding-publisher.png" alt="Court proceeding publisher in MSDL" />
+
+| Field             | Description                                                                                                                                  | Required |
+| :---------------- | :------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Court Name        | Select the `Court Name` from the list, if available. If not available, type the name of the Court, add the Court using 'Add Publisher' form. |    Y     |
+| Date of Judgement | Mention `Date of Judgement` in DD/MM/YYYY format, as printed in the document.                                                                |    Y     |
+| Place of Court    | Mention `Place of Court`, where the court is seated                                                                                          |    N     |
+| Citation          | Provide citation mentioned by the court                                                                                                      |    Y     |
+
+### Summary {#court-proceeding-abstract}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/court-proceedings/court-proceeding-abstract.png" alt="Court proceeding abstract" />
+
+| Field    | Description                                                               | Required |
+| :------- | :------------------------------------------------------------------------ | :------: |
+| Abstract | Provide a summary of the `Court Proceeding`, usually in 3 to 5 sentences. |    Y     |
+
+### Tags {#court-proceeding-tags}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/court-proceedings/court-proceeding-tags.png" alt="Court proceeding tags" />
+
+| Field | Description                                                                                | Required |
+| :---- | :----------------------------------------------------------------------------------------- | :------: |
+| Tags  | Select 3 to 8 tags that describe the main subjects the `Court Proceeding` is dealing with. |    Y     |
+
+### Attachment & Link {#court-proceeding-attachment-link}
+
+In this section, mention the following details:
+
+<Thumbnail
+  src="/img/court-proceedings/court-proceedings-attachment-link.png"
+  alt="Court proceeding attachment link MSDL"
+/>
+
+| Field      | Description                                                            | Required |
+| :--------- | :--------------------------------------------------------------------- | :------: |
+| Attachment | Upload the `Court Proceeding` as an attachment.                        |    Y     |
+| Link       | Mention the webpage link to the `Court Proceeding` was made available. |    N     |
+
+### Copyrights {#court-proceedings-copyrights}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/court-proceedings/court-proceedings-copyrights.png" alt="Blog link" />
+
+| Field      | Description                                                           | Required |
+| :--------- | :-------------------------------------------------------------------- | :------: |
+| Copyrights | The `Author(s)` will be auto-selected as the holder(s) of copyrights. |    Y     |

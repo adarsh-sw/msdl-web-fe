@@ -1,0 +1,121 @@
+---
+title: Video Tutorials
+description: Video Tutorials
+keywords:
+  - hasura
+  - docs
+  - manual
+  - graphql engine
+slug: image-photograph
+sidebar_label: Image & Photograph
+sidebar_position: 6
+# hide_table_of_contents: true
+---
+
+# Image & Photograph
+
+import Thumbnail from '@site/src/components/Thumbnail';
+
+MSDL provides you an option to 'curate' or 'publish' an `Image/Photograph`.
+
+### Image/Photograph Details {#image-details}
+
+This section has these fields, as shown here:
+
+<Thumbnail src="/img/image/image-details.png" alt="Disseration details" />
+
+| Field            | Description                                                                                                                         | Required |
+| :--------------- | :---------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Title            | Title of `Image/Photograph`, as mentioned by the Author.                                                                            |    Y     |
+| Sub-title        | Mention Sub-title as mentioned in the document. Sub-title is usually mentioned below or above the `title`.                          |    N     |
+| Language         | Select from options: English, Lao, Thai. Select multiple languages, if `Image/Photograph` description is bilingual or multilingual. |    Y     |
+| Image Resolution | Mention image resolution in width X height (e.g. 2048X1536). The unit is 'pixels' and need not be mentioned.                        |    Y     |
+| License          | Select from options: Creative Commons Attribution-Non-commercial 4.0, MIT, Open Access                                              |    Y     |
+| Access           | Select from options: Open Access, Registered Users                                                                                  |    Y     |
+
+### Publication Details {#image-publication}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/image/image-publication.png" alt="Image publication" />
+
+Images posted for the Image Gallery will appear together in a gallery view.
+
+| Field                      | Description                                                                                                                                                                                       | Required |
+| :------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------: |
+| Image & Photograph Gallery | Select from the list. If the specific 'Image & Photograph Gallery is not available, you can type the name of the Image & Photograph Gallery and create it using 'Add Image & Photograph Gallery.' |    Y     |
+
+### Series & Volume {#image-series-volume}
+
+If the `Image/Photograph` has appeared in a Series, mention the Series and Series Number in this section:
+
+<Thumbnail src="/img/image/image-series-volume.png" alt="Image series and volume" />
+
+| Field                     | Description                            | Required |
+| :------------------------ | :------------------------------------- | :------: |
+| Image & Photograph Series | Mention `Series Title`, if available.  |    N     |
+| Series Number             | Mention `Series Number`, if available. |    N     |
+
+### Creator {#image-authors}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/image/image-authors.png" alt="Image/ Photograph Authors" />
+
+| Field           | Description                                                                                                                                                                | Required |
+| :-------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Type of Creator | Select from options: Creator, Photographer. Default option selected: 'Creator'.                                                                                            |    Y     |
+| Creator         | Select list of 'Creators'. If the Creator is not available in the list, type the name of Creator you want to add and click 'Add Creator'. It will open 'Add Creator' form. |    Y     |
+
+### Publisher Details {#image-publisher}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/image/image-publisher.png" alt="Image photograph publisher MSDL" />
+
+| Field                                             | Description                                                                                                                                                                                                                                                       | Required |
+| :------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Website/ Database/ Publisher/ Personal Collection | Select the `Website/ Database/ Publisher/ Personal Collection` from the list, if available. If not available, type the name of the Publisher add the Publisher using 'Add Publisher' form.                                                                        |    Y     |
+| Date of Publication                               | Mention `Date of Publication` in DD/MM/YYYY format.                                                                                                                                                                                                               |    Y     |
+| Place of Publication                              | Mention `Place of Publication`, such as the primary city or place mentioned as the office of the Publisher. If the city is not well-known, you may mention the district or province as well. Sometimes digital-only Books may not mention `Place of Publication`. |    N     |
+| Call Number                                       | Provide a `Call Number` if available.                                                                                                                                                                                                                             |    N     |
+
+### Abstract {#article-abstract}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/article/article-abstract.png" alt="Essay Article abstract" />
+
+| Field    | Description                                                            | Required |
+| :------- | :--------------------------------------------------------------------- | :------: |
+| Abstract | Provide a summary of the `Essay/Article`, usually in 3 to 5 sentences. |    Y     |
+
+### Tags {#article-tags}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/article/article-tags.png" alt="Essay article tags" />
+
+| Field | Description                                                                                 | Required |
+| :---- | :------------------------------------------------------------------------------------------ | :------: |
+| Tags  | Select 3 to 8 tags that describe the main subjects the `Image/ photograph` is dealing with. |    Y     |
+
+### Attachment & Link {#image-attachment-link}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/image/image-attachment-link.png" alt="Image/ photograph link MSDL" />
+
+| Field | Description                                                         | Required |
+| :---- | :------------------------------------------------------------------ | :------: |
+| Link  | Mention the webpage link to the `Essay/Article` was made available. |    N     |
+
+### Copyrights {#image-copyrights}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/image/image-copyrights.png" alt="Image link" />
+
+| Field      | Description                                                             | Required |
+| :--------- | :---------------------------------------------------------------------- | :------: |
+| Copyrights | The `Creators(s)` will be auto-selected as the holder(s) of copyrights. |    Y     |

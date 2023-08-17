@@ -1,0 +1,124 @@
+---
+title: Video Tutorials
+description: Video Tutorials
+keywords:
+  - hasura
+  - docs
+  - manual
+  - graphql engine
+slug: journal-article
+sidebar_label: Journal Article
+sidebar_position: 8
+# hide_table_of_contents: true
+---
+
+# Journal Article
+
+import Thumbnail from '@site/src/components/Thumbnail';
+
+MSDL provides you an option to 'curate' a Journal Article published in print or digital media in rich text format.
+
+### Journal Article Details {#journal-article-details}
+
+This section requires the fields, as mentioned below:
+
+<Thumbnail src="/img/journal/journal-article-details.png" alt="Curate Journal Articles" />
+
+| Field     | Description                                                                                                            | Required |
+| :-------- | :--------------------------------------------------------------------------------------------------------------------- | :------: |
+| Title     | Title of `Journal Article` as written by the author on top of the article.                                             |    Y     |
+| Sub-title | A sub-title is often written below the title. Mention Sub-title, if it is available.                                   |    N     |
+| Language  | Select from options: English, Lao, Thai. Select multiple languages, if `Journal Article` is bilingual or multilingual. |    Y     |
+| Pages     | Journal Articles appearing in a Journal will have start and end pages. Mention the Pages like 25-35.                   |    Y     |
+| License   | Select from options: Creative Commons Attribution-Non-commercial 4.0, MIT, Open Access                                 |    Y     |
+| Access    | Select from options: Open Access, Registered Users                                                                     |    Y     |
+
+### Publication Details {#image-publication}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/journal/journal-article-publication.png" alt="Journal article publication" />
+
+If the 'Journal' is not available in the list, you can type the name of the journal, and click add the journal article.
+
+<Thumbnail src="/img/journal/journal-article-publication-add.png" alt="Journal article publication" />
+
+Journal articles posted for a journal will appear together in the Journal's homepage in MSDL.
+
+| Field   | Description                                                                                                                               | Required |
+| :------ | :---------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Journal | Select from the list. If the specific 'Journal' is not available, you can type the name of the journal and create it using 'Add Journal.' |    Y     |
+
+### Volume & Issue {#journal-volume-issue}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/journal/journal-volume-issue.png" alt="Journal article journal volume and issue" />
+
+| Field               | Description                                            | Required |
+| :------------------ | :----------------------------------------------------- | :------: |
+| Volume Number       | Mention `Volume Number` of Journal.                    |    Y     |
+| Issue Number        | Mention the Issue Number of the Journal.               |    Y     |
+| Date of Publication | Mention the Date of Publication of the Journal Article |    Y     |
+
+### Authors {#journal-article-authors}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/journal/journal-authors.png" alt="journal Authors" />
+
+| Field          | Description                                                                                                                                                           | Required |
+| :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Type of Author | Select from options: Author, Editor. Default option selected: 'Author'.                                                                                               |    Y     |
+| Author         | Select list of 'Authors'. If the Author is not available in the list, type the name of Author you want to add and click 'Add Author'. It will open 'Add Author' form. |    Y     |
+
+### Abstract {#journal-article-abstract}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/journal/journal-article-abstract.png" alt="Book abstract" />
+
+| Field    | Description                                                                                                                                       | Required |
+| :------- | :------------------------------------------------------------------------------------------------------------------------------------------------ | :------: |
+| Abstract | Provide an abstract of the `Journal Article`, usually in 3 to 5 sentences. An Abstract is usually provided by the Author of the Journal Article . |    Y     |
+
+### Tags {#journal-article-tags}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/journal/journal-article-tags.png" alt="Blog tags" />
+
+| Field | Description                                                                    | Required |
+| :---- | :----------------------------------------------------------------------------- | :------: |
+| Tags  | Select 3 to 8 tags that describe the main subjects the `Book` is dealing with. |    Y     |
+
+### Link {#journal-article-link}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/journal/journal-article-attachment-link.png" alt="Journal article attachment link MSDL" />
+
+| Field | Description                                                                                                                                                                                                   | Required |
+| :---- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------: |
+| Link  | Mention the link to the webpage that published the `Journal Article`.                                                                                                                                         |    Y     |
+| Link  | Mention the webpage link to the `Book` where it was originally published. Link is optional, because Authors and Publishers may choose to curate Book they have scanned and upload in MSDL for the first time. |    N     |
+
+### Copyrights {#book-copyrights}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/book/book-copyrights.png" alt="Blog link" />
+
+| Field      | Description                                                           | Required |
+| :--------- | :-------------------------------------------------------------------- | :------: |
+| Copyrights | The `Author(s)` will be auto-selected as the holder(s) of copyrights. |    Y     |
+
+### Journal Article Text {#book-copyrights}
+
+In this section, create the journal article:
+
+<Thumbnail src="/img/journal/journal-article-editor.png" alt="Blog link" />
+
+| Field              | Description                                                                   | Required |
+| :----------------- | :---------------------------------------------------------------------------- | :------: |
+| Build Your Article | Enter the text and images of the journal article, using the rich text editor. |    Y     |

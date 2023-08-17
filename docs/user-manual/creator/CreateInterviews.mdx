@@ -1,0 +1,122 @@
+---
+title: Video Tutorials
+description: Video Tutorials
+keywords:
+  - hasura
+  - docs
+  - manual
+  - graphql engine
+slug: interviews
+sidebar_label: Interviews
+sidebar_position: 7
+# hide_table_of_contents: true
+---
+
+# Interviews
+
+import Thumbnail from '@site/src/components/Thumbnail';
+
+MSDL provides you an option to 'curate' or 'publish' an `interviews`.
+
+### Interview Details {#interview-details}
+
+This section has these fields, as shown here:
+
+<Thumbnail src="/img/interview/interview-details.png" alt="Interview details" />
+
+| Field                  | Description                                                                                                                                                                                                                                                                                            | Required |
+| :--------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Title                  | Title of `Interview`, as mentioned by the Author.                                                                                                                                                                                                                                                      |    Y     |
+| Sub-title              | Mention Sub-title as mentioned in the document. Sub-title is usually mentioned below or above the `title`.                                                                                                                                                                                             |    N     |
+| Language               | Select from options: English, Lao, Thai. Select multiple languages, if `Interview` content is bilingual or multilingual.                                                                                                                                                                               |    Y     |
+| Number of Pages/ Pages | If the interview is published as a document itself as PDF, provide the total 'Number of Pages'. If the 'Interview' is published online, say in a webpage, mention '00'. Mention the 'Pages' (25-35) where the interview is published in another publication, such as Book, Journal, and Magazine, etc. |    Y     |
+| License                | Select from options: Creative Commons Attribution-Non-commercial 4.0, MIT, Open Access                                                                                                                                                                                                                 |    Y     |
+| Access                 | Select from options: Open Access, Registered Users                                                                                                                                                                                                                                                     |    Y     |
+
+### Publication Details {#interview-publication}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/interview/interview-publication.png" alt="interview publication" />
+
+Images posted for the Image Gallery will appear together in a gallery view.
+
+| Field                      | Description                                                                                                                                                                                       | Required |
+| :------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------: |
+| Image & Photograph Gallery | Select from the list. If the specific 'Image & Photograph Gallery is not available, you can type the name of the Image & Photograph Gallery and create it using 'Add Image & Photograph Gallery.' |    Y     |
+
+### Series & Volume {#interview-series-volume}
+
+If the `Interview` has appeared in a Series, mention the Series and Series Number in this section:
+
+<Thumbnail src="/img/interview/interview-series-volume.png" alt="Image series and volume" />
+
+| Field                     | Description                            | Required |
+| :------------------------ | :------------------------------------- | :------: |
+| Image & Photograph Series | Mention `Series Title`, if available.  |    N     |
+| Series Number             | Mention `Series Number`, if available. |    N     |
+
+### Authors & Interviewee {#interview-authors}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/interview/interview-authors.png" alt="Interview Authors" />
+
+| Field           | Description                                                                                                                                                                                                           | Required |
+| :-------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Type of Creator | Select from options: Creator, Photographer. Default option selected: 'Creator'.                                                                                                                                       |    Y     |
+| Author          | Select list of 'Author/ Interviewee'. If the Interviewer is not available in the list, type the name of Interviewer you want to add and click 'Add Author/ Interviewee'. It will open 'Add Author/ Interviewee' form. |    Y     |
+
+### Publisher Details {#interview-publisher}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/interview/interview-publisher.png" alt="Image photograph publisher MSDL" />
+
+| Field                | Description                                                                                                                                                                                                                                                       | Required |
+| :------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Publisher            | Select the `Publisher` from the list, if available. If not available, type the name of the Publisher add the Publisher using 'Add Publisher' form.                                                                                                                |    Y     |
+| Date of Publication  | Mention `Date of Publication` in DD/MM/YYYY format.                                                                                                                                                                                                               |    Y     |
+| Place of Publication | Mention `Place of Publication`, such as the primary city or place mentioned as the office of the Publisher. If the city is not well-known, you may mention the district or province as well. Sometimes digital-only Books may not mention `Place of Publication`. |    N     |
+| Call Number          | Provide a `Call Number` if available.                                                                                                                                                                                                                             |    N     |
+
+### Summary {#interview-abstract}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/interview/interview-abstract.png" alt="Essay Article abstract" />
+
+| Field   | Description                                                        | Required |
+| :------ | :----------------------------------------------------------------- | :------: |
+| Summary | Provide a summary of the `Interview`, usually in 3 to 5 sentences. |    Y     |
+
+### Tags {#interview-tags}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/interview/interview-tags.png" alt="Essay article tags" />
+
+| Field | Description                                                                         | Required |
+| :---- | :---------------------------------------------------------------------------------- | :------: |
+| Tags  | Select 3 to 8 tags that describe the main subjects the `Interview` is dealing with. |    Y     |
+
+### Attachment & Link {#interview-attachment-link}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/interview/interview-attachment-link.png" alt="Image/ photograph link MSDL" />
+
+| Field      | Description                                                     | Required |
+| :--------- | :-------------------------------------------------------------- | :------: |
+| Attachment | Upload the attachment file in PDF.                              |    Y     |
+| Link       | Mention the webpage link to the `Interview` was made available. |    N     |
+
+### Copyrights {#interview-copyrights}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/interview/interview-copyrights.png" alt="Image link" />
+
+| Field      | Description                                                            | Required |
+| :--------- | :--------------------------------------------------------------------- | :------: |
+| Copyrights | The `Authors(s)` will be auto-selected as the holder(s) of copyrights. |    Y     |

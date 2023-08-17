@@ -1,0 +1,151 @@
+---
+title: Video Tutorials
+description: Video Tutorials
+keywords:
+  - hasura
+  - docs
+  - manual
+  - graphql engine
+slug: audio
+sidebar_label: Audio
+sidebar_position: 1
+# hide_table_of_contents: true
+---
+
+# Audio
+
+import Thumbnail from '@site/src/components/Thumbnail';
+
+MSDL provides an option to curate or publish an Audio resource. Following citation format is an example of the minimum
+data required to describe a recorded speech or lecture.
+
+```
+Speaker last name, Initials. (Year, Month Day). Speech title [Speech audio recording]. Website Name. URL
+```
+
+### Audio Details {#audio-details}
+
+Provide these details in this section:
+
+<Thumbnail src="/img/audio/audio-details.png" alt="audio details form in MSDL" />
+
+| Field        | Description                                                                                   | Required |
+| :----------- | :-------------------------------------------------------------------------------------------- | :------: |
+| Title        | Title of the audio as chosen by the creator of the audio.                                     |    Y     |
+| Sub-title    | A sub-title qualifies the title. Sometimes sub-title is written after ':' the title.          |    N     |
+| Audio Type   | Select: Audio, Podcast                                                                        |    Y     |
+| Language     | Select: English, Lao, Thai. Select multiple languages, if audio is bilingual or multilingual. |    Y     |
+| Running Time | Auto-fills running time (HH:MM:SS) format, based on audio file uploaded.                      |    Y     |
+| License      | Select license                                                                                |    Y     |
+| Access       | Select type of access for the MSDL Users: Open Access, Registered Users                       |    Y     |
+
+### Publication Details {#audio-publication}
+
+If the current audio is part of Book, Conference or Workshop Proceedings, Video, News Article, Presentation, Minute of
+the Meeting, or a Website, you can mention that publication in this section.
+
+| Field            | Description                                                                                                                            | Required |
+| :--------------- | :------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Publication Type | Select from the options: Book, Conference or Workshop Proceedings, Minutes of the Meeting, News Article, Presentation, Video, Website. |    N     |
+| Publication      | Select the publication if it comes in your search. Else, you can add its publication using the 'Add Publication' form.                 |    Y     |
+
+Add publication is optional. However, if you select Publication Type, then the form requires you to provide a
+publication where the audio file has appeared.
+
+<Thumbnail src="/img/audio/audio-publication.png" alt="audio publication form in MSDL" />
+
+### Series & Volume/ Episode {#audio-series-details}
+
+This section requires the details:
+
+<Thumbnail src="/img/audio/audio-series-details.png" alt="audio series and episode details form in MSDL" />
+
+Sometimes, an audio can be a part of a series. It can also be published as an episode. This section allows you to
+mention those details of the episode and series.
+
+| Field          | Description                                                               | Required |
+| :------------- | :------------------------------------------------------------------------ | :------: |
+| Series Title   | Provide title of the series of the audio or its publication.              |    N     |
+| Series Number  | Mention series number mentioned in the audio resource or its publication. |    N     |
+| Episode Title  | Mention the title of the episode.                                         |    N     |
+| Episode Number | Mention episode number.                                                   |    N     |
+
+### Performer Details {#audio-author-details}
+
+This section requires details:
+
+<Thumbnail src="/img/audio/audio-author-details.png" alt="audio author details form in MSDL" />
+
+An audio can be created with the involvement of one or more Composer, Contributor, Host, Narrator, Performer, and Words
+by. You can select one or more such creators and their roles for the audio resource you are curating/ publishing.
+
+| Field        | Description                                                                               | Required |
+| :----------- | :---------------------------------------------------------------------------------------- | :------: |
+| Creator Type | Select from options: Composer, Contributor, Host, Narrator, Performer, and Words by       |    Y     |
+| Creator      | Search and select the creator, if exists. Else, add a creator using 'Add Performer' form. |    Y     |
+
+### Publisher Details {#audio-publisher-details}
+
+These details can be mentioned in the Publisher Details section:
+
+<Thumbnail src="/img/audio/audio-publisher-details.png" alt="audio publisher details form in MSDL" />
+
+Publisher is mandatory. If you have created the audio content and publishing the audio in MSDL itself, select 'Mekong
+School Digital Library' as the publisher.
+
+| Field                | Description                                                                                                                                                                                                                                               | Required |
+| :------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Publisher            | Search and select the publisher. If it doesn't exist, add the Publisher name using the form 'Add Publisher'.                                                                                                                                              |    Y     |
+| Date of Publication  | Published audio content shall mention 'Date of Publication' on the cover or in the publication (e.g., Book, Report, Conference or Workshop Proceedings, etc.). Mention the date of submission as the 'Date of Publication' if you are publishing in MSDL. |    Y     |
+| Call Number          | Call number is mentioned in the inside cover page of the publication.                                                                                                                                                                                     |    N     |
+| Place of Publication | Mention the primary 'Place of Publication', usually mentioned in the inside cover page of publication.                                                                                                                                                    |    N     |
+
+### Abstract {#audio-Abstract}
+
+These details can be mentioned in Abstract:
+
+<Thumbnail src="/img/audio/audio-abstract.png" alt="audio abstract in MSDL" />
+
+If you are curating the resource, you can provide the abstract provided by the author or the publisher. If you are
+publishing the resource in MSDL, write a summary of the content of the audio.
+
+| Field    | Description                                                     | Required |
+| :------- | :-------------------------------------------------------------- | :------: |
+| Abstract | Write a summary of the audio resource, usually in 3 to 5 lines. |    Y     |
+
+### Tags {#audio-tags}
+
+Select one or more tags in Tags section:
+
+<Thumbnail src="/img/audio/audio-tags.png" alt="audio tags in MSDL" />
+
+Provide 3 to 8 tags that can help the MSDL resources explore the audio resource.
+
+| Field | Description                           | Required |
+| :---- | :------------------------------------ | :------: |
+| Tags  | Select the tags from the list of tags |    Y     |
+
+### Attachment & Link {#audio-attachment-link}
+
+Upload the audio file in MP3 format and mention source link in this section (if curated):
+
+<Thumbnail src="/img/audio/audio-attachment-link.png" alt="audio attachment and link in MSDL" />
+
+Audio file come as MP3 file format. Upload the file using the file uploader. If the audio resource is curated, then you
+can mention the link to the source webpage containing the audio. If you are publishing the resource in MSDL, omit the
+Link field.
+
+| Field    | Description                                   | Required |
+| :------- | :-------------------------------------------- | :------: |
+| Add File | Upload the audio file in MP3 format.          |    Y     |
+| Link     | Link to the original publishing the resource. |    N     |
+
+### Copyrights {#audio-copyrights}
+
+Select creator holding the copyright:
+
+<Thumbnail src="/img/audio/audio-copyrights.png" alt="audio copyright in MSDL" />
+
+| Field            | Description                                                  | Required |
+| :--------------- | :----------------------------------------------------------- | :------: |
+| Copyright Holder | Select the creator(s) holding the copyright to the resource. |    Y     |

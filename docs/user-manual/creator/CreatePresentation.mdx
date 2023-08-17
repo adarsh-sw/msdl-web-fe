@@ -1,0 +1,113 @@
+---
+title: Video Tutorials
+description: Video Tutorials
+keywords:
+  - hasura
+  - docs
+  - manual
+  - graphql engine
+slug: presentation
+sidebar_label: Presentation
+sidebar_position: 11
+# hide_table_of_contents: true
+---
+
+# Presentation
+
+import Thumbnail from '@site/src/components/Thumbnail';
+
+MSDL provides you an option to 'curate' a presentation, published elsewhere. You can also publish a presentation in
+MSDL.
+
+### Presentation Details {#presentation-details}
+
+This section requires the fields, as mentioned below:
+
+<Thumbnail src="/img/presentation/presentation-details.png" alt="presentation details" />
+
+| Field                  | Description                                                                                                                             | Required |
+| :--------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Title                  | Title of `Presentation` in the title slide of the presentation.                                                                         |    Y     |
+| Sub-title              | A sub-title is often written below the title. Mention Sub-title, if it is available.                                                    |    N     |
+| Language               | Select from options: English, Lao, Thai. Select multiple languages, if `Presentation` is bilingual or multilingual.                     |    Y     |
+| Number of Pages/ Pages | If the given `Presentation` appears as part of the combined Presentation, mention Pages (e.g., 10-20). Else, mention the total 'Pages'. |    Y     |
+| License                | Select from options: Creative Commons Attribution-Non-commercial 4.0, MIT, Open Access                                                  |    Y     |
+| Access                 | Select from options: Open Access, Registered Users                                                                                      |    Y     |
+
+### Publication Details {#presentation-publication}
+
+A presentation can be published in a conference or workshop proceedings.
+
+<Thumbnail src="/img/presentation/presentation-publication.png" alt="Legal text  publication" />
+
+If the 'Conference/Workshop proceeding' is not available in the list, you can type the title, and click 'Add
+Conference/Workshop Proceeding'.
+
+| Field                                 | Description                                                                                                                                                             | Required |
+| :------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Select Conference/Workshop proceeding | Select from the list. If the specific publication is not available in the list, you can type publication title and create it using 'Add Conference/Workshop proceeding' |    N     |
+
+### Conference/ Workshop/ Event Series {#conference-series}
+
+In this section, mention the following details:
+
+<Thumbnail
+  src="/img/presentation/presentation-series-volume.png"
+  alt="Conference/Workshop proceeding series and volume"
+/>
+
+| Field                              | Description                                                                        | Required |
+| :--------------------------------- | :--------------------------------------------------------------------------------- | :------: |
+| Conference/ Workshop/ Event Series | Mention `Series Title`, if available, of the event.                                |    N     |
+| Meeting Series Number              | Mention `Meeting Series Number`, if available, of the conference/ Workshop/ Event. |    N     |
+
+### Authors {#presentation-authors}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/presentation/presentation-authors.png" alt="presentation Authors" />
+
+| Field  | Description                                                                                                                                                           | Required |
+| :----- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Author | Select list of 'Authors'. If the Author is not available in the list, type the name of Author you want to add and click 'Add Author'. It will open 'Add Author' form. |    Y     |
+
+### Abstract {#presentation-abstract}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/presentation/presentation-abstract.png" alt="presentation abstract" />
+
+| Field   | Description                                                           | Required |
+| :------ | :-------------------------------------------------------------------- | :------: |
+| Summary | Provide a summary of the `Presentation`, usually in 3 to 5 sentences. |    Y     |
+
+### Tags {#presentation-tags}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/presentation/presentation-tags.png" alt="presentation tags" />
+
+| Field | Description                                                                            | Required |
+| :---- | :------------------------------------------------------------------------------------- | :------: |
+| Tags  | Select 3 to 8 tags that describe the main subjects the `presentation` is dealing with. |    Y     |
+
+### Attachment & Link {#presentation-link}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/presentation/presentation-attachment-link.png" alt="presentation text attachment link MSDL" />
+
+| Field      | Description                                                                       | Required |
+| :--------- | :-------------------------------------------------------------------------------- | :------: |
+| Attachment | Upload the PDF of presentation.                                                   |    Y     |
+| Link       | Mention the webpage link to the `Presentation` where it was originally published. |    N     |
+
+### Copyrights {#presentation-copyrights}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/presentation/presentation-copyrights.png" alt="Presentation copyright MSDL" />
+
+| Field      | Description                                                           | Required |
+| :--------- | :-------------------------------------------------------------------- | :------: |
+| Copyrights | The `Author(s)` will be auto-selected as the holder(s) of copyrights. |    Y     |

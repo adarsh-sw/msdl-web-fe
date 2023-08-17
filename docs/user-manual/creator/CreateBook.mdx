@@ -1,0 +1,116 @@
+---
+title: Video Tutorials
+description: Video Tutorials
+keywords:
+  - hasura
+  - docs
+  - manual
+  - graphql engine
+slug: book
+sidebar_label: Book
+sidebar_position: 3
+# hide_table_of_contents: true
+---
+
+# Book
+
+import Thumbnail from '@site/src/components/Thumbnail';
+
+MSDL provides you an option to 'curate' a Book already published in print or digital media. You can also choose to
+'publish' your Book in MSDL.
+
+### Book Details {#book-details}
+
+This section requires the fields, as mentioned below:
+
+<Thumbnail src="/img/book/book-details.png" alt="Curate or Publish Book Details" />
+
+| Field                  | Description                                                                                                                                             | Required |
+| :--------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------ | :------: |
+| Title                  | Title of `Book` as written by the author on the cover page.                                                                                             |    Y     |
+| Sub-title              | A sub-title is often written above or below the title. Mention Sub-title, if it is available.                                                           |    N     |
+| Publication Type       | Select from options: Book, Book Section. For curating or publishing `Book Section`, refer to [`Book Section`](/latest/user-manual/reader/book-section). |    N     |
+| Language               | Select from options: English, Lao, Thai. Select multiple languages, if `Book` is bilingual or multilingual.                                             |    Y     |
+| Number of Pages/ Pages | Mention total `Number of Pages (e.g., 237) for `Book`. For `Book Section`, mention `pages`, like 23-34.                                                 |    Y     |
+| License                | Select from options: Creative Commons Attribution-Non-commercial 4.0, MIT, Open Access                                                                  |    Y     |
+| Access                 | Select from options: Open Access, Registered Users                                                                                                      |    Y     |
+
+### Series & Volume {#book-series-volume}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/book/book-series-volume.png" alt="Book series and volume" />
+
+| Field         | Description                                                                                                             | Required |
+| :------------ | :---------------------------------------------------------------------------------------------------------------------- | :------: |
+| Series Title  | Mention `Series Title`, if available, of the Book. Usually printed in the cover page or inside cover page of the Book.  |    N     |
+| Series Number | Mention `Series Number`, if available, of the Book. Usually printed in the cover page or inside cover page of the Book. |    N     |
+| Volume Title  | Mention `Volume Title`, if available, of the Book.                                                                      |    N     |
+| Volume Number | Mention `Volume Number`, if available, of the Book.                                                                     |    N     |
+| Edition       | Mention `Edition` of the Book.                                                                                          |    N     |
+
+### Authors {#book-authors}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/book/book-authors.png" alt="Book Authors" />
+
+| Field          | Description                                                                                                                                                           | Required |
+| :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Type of Author | Select from options: Author, Contributor, Editor, Reviewing Author, Translator. Default option selected: 'Author'.                                                    |    Y     |
+| Author         | Select list of 'Authors'. If the Author is not available in the list, type the name of Author you want to add and click 'Add Author'. It will open 'Add Author' form. |    Y     |
+
+### Publisher Details {#book-publisher}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/book/book-publisher.png" alt="book publisher MSDL" />
+
+| Field                | Description                                                                                                                                                                                                                                                                      | Required |
+| :------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Publisher            | Select the `Publisher` from the list, if available. If not available, type the name of the Publisher add the Publisher using 'Add Publisher' form. If you are curating a `Book`, provide the name of the Publisher, else mention Mekong School Digital Library as the publisher. |    Y     |
+| Date of Publication  | Mention `Date of Publication` in DD/MM/YYYY format.                                                                                                                                                                                                                              |    Y     |
+| Place of Publication | Mention `Place of Publication`, such as the primary city or place mentioned as the office of the Publisher. If the city is not well-known, you may mention the district or province as well. Sometimes digital-only Books may not mention `Place of Publication`.                |    N     |
+| ISBN                 | Mention ISBN printed in the Book.                                                                                                                                                                                                                                                |    N     |
+| Call Number          | Publisher may provide a `Call Number` in the Catalogue of the Book.                                                                                                                                                                                                              |    N     |
+
+### Abstract {#book-abstract}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/book/book-abstract.png" alt="Book abstract" />
+
+| Field    | Description                                                                                                                                                                                         | Required |
+| :------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Abstract | Provide a summary of the `Book`, usually in 3 to 5 sentences. Provide paragraph(s), if required. A summary is usually provided by the Author or Publisher of the Book in the inserts or back cover. |    Y     |
+
+### Tags {#book-tags}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/book/book-tags.png" alt="Blog tags" />
+
+| Field | Description                                                                    | Required |
+| :---- | :----------------------------------------------------------------------------- | :------: |
+| Tags  | Select 3 to 8 tags that describe the main subjects the `Book` is dealing with. |    Y     |
+
+### Attachment & Link {#book-attachment-link}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/book/book-attachment-link.png" alt="Book attachment link MSDL" />
+
+| Field | Description                                                                                                                                                                                                   | Required |
+| :---- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------: |
+| Link  | MSDL aims to provide its Readers access to content. If you are curating or publishing a `Book`, upload its PDF.                                                                                               |    Y     |
+| Link  | Mention the webpage link to the `Book` where it was originally published. Link is optional, because Authors and Publishers may choose to curate Book they have scanned and upload in MSDL for the first time. |    N     |
+
+### Copyrights {#book-copyrights}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/book/book-copyrights.png" alt="Blog link" />
+
+| Field      | Description                                                           | Required |
+| :--------- | :-------------------------------------------------------------------- | :------: |
+| Copyrights | The `Author(s)` will be auto-selected as the holder(s) of copyrights. |    Y     |

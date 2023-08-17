@@ -1,0 +1,103 @@
+---
+title: Video Tutorials
+description: Video Tutorials
+keywords:
+  - hasura
+  - docs
+  - manual
+  - graphql engine
+slug: dissertation-thesis
+sidebar_label: Dissertation/Thesis
+sidebar_position: 6
+# hide_table_of_contents: true
+---
+
+# Dissertation/Thesis
+
+import Thumbnail from '@site/src/components/Thumbnail';
+
+MSDL provides you an option to 'curate' a `Dissertation/Thesis`.
+
+### Dissertation/Thesis Details {#dissertation-details}
+
+This section requires the fields, as mentioned below:
+
+<Thumbnail src="/img/dissertation/dissertation-details.png" alt="Disseration details" />
+
+| Field               | Description                                                                                                                          | Required |
+| :------------------ | :----------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Title               | Title of `Disseration/Thesis` as printed in the document.                                                                            |    Y     |
+| Sub-title           | Mention Sub-title as mentioned in the document. Sub-title is usually mentioned in the cover page itself, below or above the `title`. |    N     |
+| Language            | Select from options: English, Lao, Thai. Select multiple languages, if `Dissertation/Thesis` is bilingual or multilingual.           |    Y     |
+| Pages               | Mention total number of pages as printed or provided by PDF file.                                                                    |    Y     |
+| Dissertation/Thesis | Select from options: `Doctoral Disseration`, `Doctoral Thesis`, `Master's Disseration`, `Master's Thesis`.                           |    Y     |
+| License             | Select from options: Creative Commons Attribution-Non-commercial 4.0, MIT, Open Access                                               |    Y     |
+| Access              | Select from options: Open Access, Registered Users                                                                                   |    Y     |
+
+### Authors {#dissertation-authors}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/dissertation/dissertation-authors.png" alt="Disseration thesis Authors" />
+
+| Field          | Description                                                                                                                                                           | Required |
+| :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Type of Author | Select from options: Author, Supervisor. Default option selected: 'Author'.                                                                                           |    Y     |
+| Author         | Select list of 'Authors'. If the Author is not available in the list, type the name of Author you want to add and click 'Add Author'. It will open 'Add Author' form. |    Y     |
+
+### Publisher Details {#dissertation-publisher}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/dissertation/dissertation-publisher.png" alt="book publisher MSDL" />
+
+| Field                | Description                                                                                                                                                                                                                                                       | Required |
+| :------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| Publisher            | Select the `Publisher` from the list, if available. If not available, type the name of the Publisher add the Publisher using 'Add Publisher' form.                                                                                                                |    Y     |
+| Date of Publication  | Mention `Date of Publication` in DD/MM/YYYY format.                                                                                                                                                                                                               |    Y     |
+| Place of Publication | Mention `Place of Publication`, such as the primary city or place mentioned as the office of the Publisher. If the city is not well-known, you may mention the district or province as well. Sometimes digital-only Books may not mention `Place of Publication`. |    N     |
+| Call Number          | University may provide a `Call Number` in the Catalogue of the Book.                                                                                                                                                                                              |    N     |
+
+### Abstract {#dissertation-abstract}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/dissertation/dissertation-abstract.png" alt="Disseration/Thesis abstract" />
+
+| Field    | Description                                                                 | Required |
+| :------- | :-------------------------------------------------------------------------- | :------: |
+| Abstract | Provide a summary of the `Disseration/Thesis`, usually in 3 to 5 sentences. |    Y     |
+
+### Tags {#disseration-tags}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/dissertation/thesis-tags.png" alt="Disseration/Thesis tags" />
+
+| Field | Description                                                                                  | Required |
+| :---- | :------------------------------------------------------------------------------------------- | :------: |
+| Tags  | Select 3 to 8 tags that describe the main subjects the `Disseration/Thesis` is dealing with. |    Y     |
+
+### Attachment & Link {#court-proceeding-attachment-link}
+
+In this section, mention the following details:
+
+<Thumbnail
+  src="/img/court-proceedings/court-proceedings-attachment-link.png"
+  alt="Court proceeding attachment link MSDL"
+/>
+
+| Field      | Description                                                            | Required |
+| :--------- | :--------------------------------------------------------------------- | :------: |
+| Attachment | Upload the `Court Proceeding` as an attachment.                        |    Y     |
+| Link       | Mention the webpage link to the `Court Proceeding` was made available. |    N     |
+
+### Copyrights {#court-proceedings-copyrights}
+
+In this section, mention the following details:
+
+<Thumbnail src="/img/court-proceedings/court-proceedings-copyrights.png" alt="Blog link" />
+
+| Field      | Description                                                           | Required |
+| :--------- | :-------------------------------------------------------------------- | :------: |
+| Copyrights | The `Author(s)` will be auto-selected as the holder(s) of copyrights. |    Y     |

@@ -1,0 +1,88 @@
+---
+sidebar_label: Audio
+sidebar_position: 1
+description: Audio
+keywords:
+  - hasura
+  - docs
+  - databases
+  - connect
+toc_max_heading_level: 2
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import Thumbnail from '@site/src/components/Thumbnail';
+
+# Audio
+
+## Introduction
+
+An Audio can be a recorded speech or lecture, an audio blog, instruction, interview, and a piece of music.
+
+Podcast, on the other hand, will have an episodic series of audio records.
+
+MSDL provides the option to curate audio resources and episodes from a podcast published elsehwere. To understand how to
+curate or publish podcast episode or podcasts in MSDL, consult the section on [Podcast].
+
+:::tip Explore Audio
+
+To get a list of audio resources, select 'Audio' as the 'Resource Type' in MSDL Explore.
+
+:::
+
+## Audio Resource {#audio-resource-description}
+
+You can listen the Audio resources in Web, Android, or iOS App.
+
+<Tabs groupId="user-preference" className="api-tabs">
+<TabItem value="cli" label="Web">
+
+### Title and Performers {#audio-title-performers-view}
+
+In this section, a record mentions the `Title`, `Sub-title` (if any), `Author`, and `Tags`. Listeners can also share the
+Audio and bookmark it.
+
+<Thumbnail src="/img/audio/audio-title-view.png" alt="audio title author tags MSDL" width="1686px" />
+
+### Content {#audio-content-view}
+
+In this section, you will get a thumbnail, usually the cover page of the Audio record or logo of the podcast series. The
+link `Visit Website` takes you to the webpage from where the Audio record was curated from in MSDL. The player enables
+you to play the audio.
+
+<Thumbnail src="/img/audio/audio-content-view.png" alt="audio content player MSDL" width="1686px" />
+
+### Details {#audio-details-view}
+
+This section provides `Language`, `License`, `Publication` (if available), `Publisher`, `Date of Publication`,
+`Running Time` (In HH:MM:SS format), `Access`, `Submitted By`, and `Copyright`.
+
+<Thumbnail src="/img/audio/audio-details-view.png" alt="audio details MSDL" width="1686px" />
+
+</TabItem>
+<TabItem value="android" label="Android">
+
+### Title and Performers {#audio-title-performers-view}
+
+In this section, a record mentions the `Title`, `Sub-title` (if any), `Author`, and `Tags`. Listeners can also share the
+Audio, download the Audio file, and bookmark it.
+
+<Thumbnail src="/img/audio/audio-title-view-and.png" alt="audio title author tags MSDL" width="450px" />
+
+### Content {#audio-content-view}
+
+In this section, you can use the audio player to listen to the audio and get a summary of its content.
+
+<Thumbnail src="/img/audio/audio-content-view-and.png" alt="audio content player MSDL" width="450px" />
+
+### Details {#audio-details-view}
+
+This section provides `Language`, `License`, `Publication` (if available), `Publisher`, `Date of Publication`,
+`Running Time` (In HH:MM:SS format), `Access`, `Submitted By`, and `Copyright`.
+
+<Thumbnail src="/img/audio/audio-details-view-and.png" alt="audio details MSDL" width="450px" />
+
+</TabItem>
+
+</Tabs>
