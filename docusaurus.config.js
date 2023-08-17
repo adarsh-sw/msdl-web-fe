@@ -9,7 +9,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'MSDL Documentation',
   tagline: 'Digital Library on life, sustainability, and culture in and around the Mekong River Basin',
-  url: 'thankful-moss-09230b900.3.azurestaticapps.net',
+  url: 'https://thankful-moss-09230b900.3.azurestaticapps.net',
   baseUrl: '/',
   trailingSlash: true,
   onBrokenLinks: 'throw',
