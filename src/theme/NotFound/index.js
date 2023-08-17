@@ -91,7 +91,7 @@ export default function NotFound() {
                       </li>
                     ))}
                 </ul>
-                <a href='/docs/latest/index/' className={styles['home']} >Go Back to Home</a>
+                <a href='/latest/index/' className={styles['home']} >Go Back to Home</a>
               </div>
             </div>
           </div>
