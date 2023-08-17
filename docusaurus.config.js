@@ -9,8 +9,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'MSDL Documentation',
   tagline: 'Digital Library on life, sustainability, and culture in and around the Mekong River Basin',
-  url: 'https://library.mekongschool.org',
-  baseUrl: '/docs/',
+  url: '',
+  baseUrl: '/',
   trailingSlash: true,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
